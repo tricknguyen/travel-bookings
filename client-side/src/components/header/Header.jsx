@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Button } from "reactstrap";
 import { NavLink, Link } from "react-router-dom";
 import logo from "../../assets/images/logo.jpg";
-import headerStyle from "./header.css";
+import "./header.css";
 
 const links = [
     {
@@ -10,7 +10,7 @@ const links = [
         display: "Home"
     },
     {
-        path: "#",
+        path: "/about",
         display: "About"
     },
     {
@@ -32,7 +32,7 @@ const Header = () => {
                         <ul className="menu d-flex align-items-center gap-5">
                             {
                                 links.map((item, index) => (
-                                    <li className="nav_item" key={index}>
+                                    <li className="nav__item" key={index}>
                                         <NavLink to={item.path} className={navClass=> navClass.isActive ? "active__link" : ""}>{item.display}</NavLink>
                                     </li>
                                 ))
