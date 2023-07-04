@@ -42,3 +42,15 @@
     color: #0268dc;
 }
 
+.services__subtitle {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: #36e5ee;
+    font-family: var(--subtitle-font-name);
+}
+
+.services__title {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
