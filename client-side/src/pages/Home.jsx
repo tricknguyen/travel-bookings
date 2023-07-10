@@ -64,11 +64,28 @@ const Home = () => {
         <section>
             <Container>
                 <Row>
-                    <Col lg="3" className="mb-5">
+                    <Col lg="12" className="mb-5">
                         <Subtitle subtitle={"Explore"} />
                         <h2 className="featured__tour-title">Our featured tours</h2>
                     </Col>
                     <FeaturedTourList></FeaturedTourList>
+                </Row>
+            </Container>
+        </section>
+
+        <section>
+            <Container>
+                <Row>
+                    <Col lg="6">
+                        <div className="experience__content">
+                            <Subtitle subtitle={"Experience"}></Subtitle>
+                            <h2>With our all experience <br></br> We will serve you</h2>
+                            <p>Lorem ipsum
+                                <br />
+                                Quas
+                            </p>
+                        </div>
+                    </Col>
                 </Row>
             </Container>
         </section>
